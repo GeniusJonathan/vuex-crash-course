@@ -2,9 +2,11 @@
   "name": "vuex-crash-course",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://geniusjonathan.github.io/vuex-crash-course/",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "deploy": "gh-pages -d dist",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
